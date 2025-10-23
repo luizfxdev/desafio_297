@@ -247,5 +247,5 @@ Se este projeto te ajudou, considere dar uma ⭐️!
 
 <div align="center">
   <p>Desenvolvido com 💙 e JavaScript</p>
-  <p><i>"A Fortaleza Digital não é construída apenas por tecnologia, mas por hábitos responsáveis".,</i></p>(*Dan Brown*)
+  <p><i>"A Fortaleza Digital não é construída apenas por tecnologia, mas por hábitos responsáveis".,</i></p><b>(Dan Brown)</b>
 </div>
