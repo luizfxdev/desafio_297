@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fortaleza Digital - Algoritmópolis</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Vídeo de Background -->
+    <video id="background-video" autoplay muted loop playsinline>
+      <source src="assets/background.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Áudio de Tema -->
+    <audio id="theme-audio" loop>
+      <source src="assets/theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Controles de Áudio -->
+    <div class="audio-controls">
+      <button id="play-audio" class="audio-btn" title="Tocar música">🎵</button>
+      <button id="pause-audio" class="audio-btn" title="Pausar música">⏸️</button>
+    </div>
+
+    <!-- Container Principal -->
+    <div class="container">
+      <div class="header">
+        <h1 class="title">
+          <span class="glitch-text" data-text="FORTALEZA DIGITAL">FORTALEZA DIGITAL</span>
+        </h1>
+        <p class="subtitle">// Núcleo de Algoritmópolis - Sistema de Decodificação Avançada //</p>
+      </div>
+
+      <!-- Área de Input -->
+      <div class="input-section">
+        <label for="number-input" class="input-label">
+          <span class="label-icon">▶</span> ENTRADA DE DADOS CRIPTOGRAFADOS
+        </label>
+        <input
+          type="text"
+          id="number-input"
+          class="data-input"
+          placeholder="Ex: 2, 3, 4, 5, 10, 11, 13, 17"
+          autocomplete="off"
+        />
+        <div class="input-hint">* Insira números separados por vírgula</div>
+      </div>
+
+      <!-- Área de Botões -->
+      <div class="button-section">
+        <button id="calculate-btn" class="btn hologram">
+          <span data-text="CALCULAR">CALCULAR</span>
+          <div class="scan-line"></div>
+        </button>
+        <button id="return-btn" class="btn hologram">
+          <span data-text="RETORNAR">RETORNAR</span>
+          <div class="scan-line"></div>
+        </button>
+      </div>
+
+      <!-- Seção de Resultado -->
+      <div id="result-section" class="result-section">
+        <div class="result-header">
+          <span class="result-icon">⚡</span>
+          <h2>ANÁLISE DO SISTEMA</h2>
+        </div>
+        <div id="result-content" class="result-content">
+          <p class="waiting-message">Aguardando entrada de dados...</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
